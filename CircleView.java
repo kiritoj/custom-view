@@ -13,7 +13,7 @@ import android.graphics.drawable.Drawable;
 import android.support.annotation.Nullable;
 import android.util.AttributeSet;
 import com.example.mifans.matrixtest.R;
-public class MultiView extends android.support.v7.widget.AppCompatImageView {
+public class CircleView extends android.support.v7.widget.AppCompatImageView {
     private Context mContext;
 
     //类型：圆形or圆角
@@ -41,17 +41,17 @@ public class MultiView extends android.support.v7.widget.AppCompatImageView {
     private int mWidth;
     private RectF mRoundRect;
 
-    public MultiView(Context context) {
+    public CircleView(Context context) {
         this(context, null);
     }
 
-    public MultiView(Context context, AttributeSet attrs) {
+    public CircleView(Context context, AttributeSet attrs) {
 
         this(context, attrs, 0);
 
     }
 
-    public MultiView(Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
+    public CircleView(Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
 
         this.mContext = context;
