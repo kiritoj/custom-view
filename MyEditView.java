@@ -119,5 +119,4 @@ public class MyEditView extends android.support.v7.widget.AppCompatEditText impl
 
     }
 
-
 }
